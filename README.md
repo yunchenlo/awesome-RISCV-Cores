@@ -1,35 +1,45 @@
-# Awesome Processing in Memory(PIM) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome RISC-V Core List [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome processing in memory(PIM) works, which includes Architecture & Integrated Circuit(IC). Inspired by [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-adversarial-machine-learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning), [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) and [awesome-architecture-search](https://github.com/markdtw/awesome-architecture-search).
-
-Traditional Von Neumann Machines have encountered its limitation, Processing in Memory can help to solve both speed and energy efficiency problems. These are some awesome works!
+A curated list of spec, maturity comparison between current Open RISC-V cores. Current online lists and repos don't include the Performance, Power, Area (PPA) information, which is a very important information for developing embedded systems.
 
 ## Table of Contents
 
-- [Processing in Memory](#PIM)
-  - [Computer Architecture](#computer-architecture)
-  - [Intergrated Circuit](#ic)
-  - [Memory System](#memory-system)
-  - [Others] (#others)
-- [Processing near Memory](#PbyM)
+- [PPA Comparison](#PPA)
+- [Cores](#core)
+  - [Industry](#industry)
+  - [Academia](#academia)
 
-## Processing in Memory
+## PPA Comparison
 
-### Computer Architecture
-- Neural Architecture Search with Reinforcement Learning [[pdf]](https://arxiv.org/abs/1611.01578)
-  - Barret Zoph and Quoc V. Le. *ICLR'17*
+## Cores
+### Industry
+Name | Links | Priv. spec | User spec | License | Supplier
+---- | ----- | ---------- | --------- | ------- | --------
+rocket | [GitHub](https://github.com/freechipsproject/rocket-chip) | 1.11-draft | 2.3-draft | BSD | SiFive, UCB Bar
+freedom | [GitHub](https://github.com/sifive/freedom) | 1.11-draft | 2.3-draft | BSD | SiFive
+Berkeley Out-of-Order Machine (BOOM) | [GitHub](https://github.com/ucb-bar/riscv-boom) | 1.11-draft | 2.3-draft | BSD | Esperanto, UCB Bar
+ORCA | [GitHub](https://github.com/vectorblox/orca) |  | RV32IM | BSD | VectorBlox
+Minerva | [GitHub](https://github.com/lambdaconcept/minerva) | 1.10 | RV32I | BSD | LambdaConcept
+OPenV/mriscv | [GitHub](https://github.com/onchipuis/mriscv) |  | RV32I(?) | MIT | OnChipUIS
+VexRiscv | [GitHub](https://github.com/SpinalHDL/VexRiscv) |  | RV32I[M][C] | MIT | SpinalHDL
+Roa Logic RV12 | [GitHub](https://github.com/roalogic/RV12) | 1.9.1 | 2.1 | Non-Commercial License | Roa Logic
+SCR1 | [GitHub]( https://github.com/syntacore/scr1) | 1.10 | 2.2, RV32I/E[MC] | Solderpad Hardware License v. 0.51 | Syntacore
+Hummingbird E200 | [GitHub](https://github.com/SI-RISCV/e200_opensource) | 1.10 | 2.2, RV32IMAC | Apache 2.0 | Bob Hu
+Shakti | [Website](http://shakti.org.in/),[GitLab](https://gitlab.com/shaktiproject) | 1.11 | 2.2, RV64IMAFDC | BSD | IIT Madras
+ReonV | [GitHub](https://github.com/lcbcFoo/ReonV) |  |  | GPL v3 |
+PicoRV32 | [GitHub](https://github.com/cliffordwolf/picorv32) | | RV32I/E[MC] | ISC | Clifford Wolf
+MR1 | [GitHub](https://github.com/tomverbeure/mr1) | | RV32I | Unlicense | Tom Verbeure
+SERV | [GitHub](https://github.com/olofk/serv) | | RV32I | ISC | Olof Kindgren
+SweRV EH1 | [GitHub](https://github.com/westerndigitalcorporation/swerv_eh1) | | RV32IMC | Apache 2.0 | Western Digital Corporation
+Reve-R | [GitHub](https://github.com/atthecodeface/cdl_hardware) | 1.10 | RV32IMAC | Apache 2.0 | Gavin Stark
 
-### Intergrated Circuit
-
-### Memory System
-
-### Others
-
-
-## Processing near Memory
-- Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves [[pdf]](http://ml.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf) [[code]](https://github.com/automl/pylearningcurvepredictor)
-  - Tobias Domhan, Jost Tobias Springenberg, Frank Hutter. *IJCAI'15*
-
+### Academia
+Name | Links | Priv. spec | User spec | License | Supplier
+---- | ----- | ---------- | --------- | ------- | --------
+RI5CY | [GitHub](https://github.com/pulp-platform/riscv) |  | RV32IMC | Solderpad Hardware License v. 0.51 | ETH Zurich, Università di Bologna
+Zero-riscy | [GitHub](https://github.com/pulp-platform/zero-riscy) |  | RV32IMC | Solderpad Hardware License v. 0.51 | ETH Zurich, Università di Bologna
+Ariane | [Website](https://pulp-platform.github.io/ariane/docs/home/),[GitHub](https://github.com/pulp-platform/ariane) |  | RV64IMC | Solderpad Hardware License v. 0.51 | ETH Zurich, Università di Bologna
+Riscy Processors | [Website](http://csg.csail.mit.edu/riscy-e/),[GitHub](https://github.com/csail-csg/riscy) |  | | MIT | MIT CSAIL CSG
 
 
 ## Contributing
