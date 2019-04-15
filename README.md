@@ -10,6 +10,18 @@ A curated list of spec, maturity comparison between current Open RISC-V cores. C
   - [Academia](#academia)
 
 ## PPA Comparison
+Project Name | Chip Name | Clock Rate (MHz) | Size (um^2) | Tech Node (nm) | Power | Gates
+---- | ----- | ---------- | --------- | ------- | -------- | --------
+PULP | Arnold | 330 | 3000 x 3000 | 22 | NA | NA
+PULP | Kosmodrom | 1300 | 3000 x 3000 | 22 | 1 pW (@1.8V, 1MHz) | 20 MGe
+PULP | Poseidon | 700 | 3000 x 3000 | 22 | 30 mW (@0.8V, 700MHz) | NA
+PULP | Pulp v1 | 475 | 1650 x 1650 | 28 | 8 mW (@0.7V, 10MHz) | 700 kGe
+PULP | Pulp v2 | 1000 | 1650 x 1650 | 28 | 100 mW | 1800 kGe
+PULP | Pulp v3 | 66 | 1650 x 1650 | 28 | 1.2 mW (@0.6V, 50MHz) | 2500 kGe
+PULP | Honey_Bunny | 60 | 1500 x 2000 | 28 | 1 mW (@1.2V, 1MHz) | 2 MGe
+PULP | Mr.Wolf | 450 | 3200 x 3200 | 40 | 154 mW (1.1V, 450MHz) | 1800 kGe
+PULP | Mia_Wallance | 400 | 3950 x 1875 | 65 | 1 mW (@1.2V, 1MHz) |2 Mge
+PULP | Fulmine | 400 | 2626 x 2626 | 65 | 13 mW (@0.8V, 104MHz) | 2500 kGe
 
 ## Cores
 ### Industry
