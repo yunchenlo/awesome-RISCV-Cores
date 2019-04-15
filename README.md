@@ -10,18 +10,37 @@ A curated list of spec, maturity comparison between current Open RISC-V cores. C
   - [Academia](#academia)
 
 ## PPA Comparison
-Project Name | Chip Name | Clock Rate (MHz) | Size (um^2) | Tech Node (nm) | Power | Gates
----- | ----- | ---------- | --------- | ------- | -------- | --------
-PULP | Arnold | 330 | 3000 x 3000 | 22 | NA | NA
-PULP | Kosmodrom | 1300 | 3000 x 3000 | 22 | 1 pW (@1.8V, 1MHz) | 20 MGe
-PULP | Poseidon | 700 | 3000 x 3000 | 22 | 30 mW (@0.8V, 700MHz) | NA
-PULP | Pulp v1 | 475 | 1650 x 1650 | 28 | 8 mW (@0.7V, 10MHz) | 700 kGe
-PULP | Pulp v2 | 1000 | 1650 x 1650 | 28 | 100 mW | 1800 kGe
-PULP | Pulp v3 | 66 | 1650 x 1650 | 28 | 1.2 mW (@0.6V, 50MHz) | 2500 kGe
-PULP | Honey_Bunny | 60 | 1500 x 2000 | 28 | 1 mW (@1.2V, 1MHz) | 2 MGe
-PULP | Mr.Wolf | 450 | 3200 x 3200 | 40 | 154 mW (1.1V, 450MHz) | 1800 kGe
-PULP | Mia_Wallance | 400 | 3950 x 1875 | 65 | 1 mW (@1.2V, 1MHz) |2 Mge
-PULP | Fulmine | 400 | 2626 x 2626 | 65 | 13 mW (@0.8V, 104MHz) | 2500 kGe
+Project Name | Chip Name | Clock Rate (MHz) | Size (um^2) | Tech Node (nm) | Power | Gates | Link
+---- | ----- | ---------- | --------- | ------- | -------- | -------- | -------
+PULP | Arnold | 330 | 3000 x 3000 | 22 | NA | NA | [Link](http://asic.ethz.ch/2018/Arnold.html)
+PULP | Kosmodrom | 1300 | 3000 x 3000 | 22 | 1 pW (@1.8V, 1MHz) | 20 MGe | [Link](http://asic.ethz.ch/2018/Kosmodrom.html)
+PULP | Poseidon | 700 | 3000 x 3000 | 22 | 30 mW (@0.8V, 700MHz) | NA | [Link](http://asic.ethz.ch/2018/Poseidon.html)
+PULP | Pulp v1 | 475 | 1650 x 1650 | 28 | 8 mW (@0.7V, 10MHz) | 700 kGe | [Link](http://asic.ethz.ch/2013/Pulp.html)
+PULP | Pulp v2 | 1000 | 1650 x 1650 | 28 | 100 mW | 1800 kGe | [Link](http://asic.ethz.ch/2014/Pulpv2.html)
+PULP | Pulp v3 | 66 | 1650 x 1650 | 28 | 1.2 mW (@0.6V, 50MHz) | 2500 kGe | [Link](http://asic.ethz.ch/2015/Pulpv3.html)
+PULP | Honey_Bunny | 60 | 1500 x 2000 | 28 | 1 mW (@1.2V, 1MHz) | 2 MGe | [Link](http://asic.ethz.ch/2015/Honey_Bunny.html)
+PULP | Mr.Wolf | 450 | 3200 x 3200 | 40 | 154 mW (1.1V, 450MHz) | 1800 kGe | [Link](http://asic.ethz.ch/2017/Mr.Wolf.html)
+PULP | Mia_Wallance | 400 | 3950 x 1875 | 65 | 1 mW (@1.2V, 1MHz) |2 Mge | [Link](http://asic.ethz.ch/2015/Mia_Wallace.html)
+PULP | Fulmine | 400 | 2626 x 2626 | 65 | 13 mW (@0.8V, 104MHz) | 2500 kGe | [Link](http://asic.ethz.ch/2015/Fulmine.html)
+PULP | Artemis | 500 | 1252 x 1252 | 65 | 1mW (@1.2V, 1MHz) | 600 Kge | [Link](http://asic.ethz.ch/2014/Artemis.html)
+PULP | Hecate | 500 | 1252 x 1252 | 65 |1mW (@1.2V, 1MHz) | 600 Kge | [Link](http://asic.ethz.ch/2014/Hecate.html)
+PULP | Selene | 500 | 1252 x 1252 | 65 | 1mW (@1.2V, 1MHz) | 600 Kge | [Link](http://asic.ethz.ch/2014/Selene.html)
+PULP | Diana | 500 | 1252 x 1252 | 65 | 1mW (@1.2V, 1MHz) | 600 Kge | [Link](http://asic.ethz.ch/2014/Diana.html)
+PULP | Phoebe | 500 | 1252 x 1252 | 65 | 22mW (@1.2V, 100MHz) | 600 Kge | [Link](http://asic.ethz.ch/2015/Phoebe.html)
+PULP | Imperio | 650 | 1252 x 1252 | 65 | 32.8 mW (1.2V, 400MHz) | 500 kGe | [Link](http://asic.ethz.ch/2015/Imperio.html)
+PULP | Patronus | 100 | 2626 x 2626 | 65 | 999 mW (1.2V, 400MHz) | 5 Mge | [Link](http://asic.ethz.ch/2016/Patronus.html)
+PULP | Scarabaeus | 200 | 2626 x 1252 | 65 | 45.97 mW (1.2, 200MHz) | 1200 kGe | [Link](http://asic.ethz.ch/2018/Scarabaeus.html)
+PULP | Atomario | 200 | 2626 x 2626 | 65 | 54 mW (1.2V, 200MHz) | 3 Mge | [Link](http://asic.ethz.ch/2018/Atomario.html)
+PULP | Vivosoc | 140 | 4000 x 3200 | 130 | 45 mW (1.2V, 40MHz) | 600 kGe | [Link](http://asic.ethz.ch/2015/Vivosoc.html)
+PULP | Vivosoc2 | 64 | 4368 x 4768 | 130 | 20 mW (@50MHz, 1.2V) | 800 Kge | [Link](http://asic.ethz.ch/2016/Vivosoc2.html)
+PULP | Vivosoc2.001 | 64 | 4368 x 4768 | 130 | 20mW (50MHz, 1.2V) | 800 Kge | [Link](http://asic.ethz.ch/2016/Vivosoc2.001.html)
+PULP | Vivosoc3 | 100 | 4368 x 4768 | 110 | 10mW ( 50MHz, 0.8V) | 2MGe | [Link](http://asic.ethz.ch/2018/Vivosoc3.html)
+PULP | Triphos | 16 | 3000 x 4000	 | 130 | 999mW (0.1V, 1MHz) | 500 kGe | [Link](http://asic.ethz.ch/2016/Triphos.html)
+PULP | Or10n | 360 | 1525 x 1525 | 180 | 1mW (@1.8V, 1MHz) | 80kGe | [Link](http://asic.ethz.ch/2013/Or10n.html)
+PULP | Sir10us | 166 | 1525 x 1525 | 180 | 93 mW(@1.8V, 166MHz) | 100 kGe | [Link](http://asic.ethz.ch/2013/Sir10us.html)
+PULP | Sid | 15 | 7201 x 8160 | 180 | 3W (1.0V, 15MHz) | 2MGe | [Link](http://asic.ethz.ch/2015/Sid.html)
+PULP | Diego | 15 | 7201 x 8160 | 180 | 3W (0.8V, 15MHz) | 2MGe | [Link](http://asic.ethz.ch/2015/Diego.html)
+PULP | Manny | 1.25 | 7201 x 8160 | 180 | 3W (0.6V, 1.5MHz) | 2MGe | [Link](http://asic.ethz.ch/2015/Manny.html)
 
 ## Cores
 ### Industry
