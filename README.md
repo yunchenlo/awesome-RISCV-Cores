@@ -63,6 +63,7 @@ MR1 | [GitHub](https://github.com/tomverbeure/mr1) | | RV32I | Unlicense | Tom V
 SERV | [GitHub](https://github.com/olofk/serv) | | RV32I | ISC | Olof Kindgren
 SweRV EH1 | [GitHub](https://github.com/westerndigitalcorporation/swerv_eh1) | | RV32IMC | Apache 2.0 | Western Digital Corporation
 Reve-R | [GitHub](https://github.com/atthecodeface/cdl_hardware) | 1.10 | RV32IMAC | Apache 2.0 | Gavin Stark
+LibreCore | [GitHub](https://github.com/etcimon/GSys-LibreCore), [Docs](https://etcimon.github.io/GSys-LibreCore/) | M/S/U + H, Sstc | RV64GC, Zba/Zbb/Zbs, Zicbom/Zicboz, Zacas, [V via Ara] | CERN-OHL-S-2.0 (RTL), MIT (tooling) | Etienne Cimon (GSys)
 
 ### Academia
 Name | Links | Priv. spec | User spec | License | Supplier
